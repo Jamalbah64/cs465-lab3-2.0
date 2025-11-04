@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "name": "European Union",
+        "slug": "eu",
+        "quizzes": [
+            {
+                "quizID": "eu-capitals",
+                "title": "EU Capitals"
+            },
+            {
+                "quizID": "eu-flags",
+                "title": "EU Flags"
+            },
+            {
+                "quizID": "eu-landmarks",
+                "title": "EU Landmarks"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Science",
+        "slug": "science",
+        "quizzes": [
+            {
+                "quizID": "physics-fundamentals",
+                "title": "Physics Fundamentals"
+            },
+            {
+                "quizID": "space-exploration",
+                "title": "Space Exploration"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Cars",
+        "slug": "cars",
+        "quizzes": [
+            {
+                "quizID": "cars-brands",
+                "title": "Car Brands"
+            },
+            {
+                "quizID": "cars-history",
+                "title": "Car History"
+            },
+            {
+                "quizID": "cars-parts",
+                "title": "Car Parts"
+            }
+        ]
+    }
+]

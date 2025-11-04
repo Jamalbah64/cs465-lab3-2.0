@@ -1,0 +1,38 @@
+{
+    "topic": "Science",
+    "quizId": "physics-fundamentals",
+    "title": "Physics Fundamentals",
+    "quizMessage": "Test basics of kinematics and forces.",
+    "questions": [
+        {
+            "question": "What is the SI unit of force?",
+            "options": [
+                "Joule",
+                "Pascal",
+                "Newton",
+                "Watt"
+            ],
+            "answer": "Newton"
+        },
+        {
+            "question": "Acceleration due to gravity near Earth’s surface is about:",
+            "options": [
+                "1.6 m/s^2",
+                "3.7 m/s^2",
+                "9.8 m/s^2",
+                "24.8 m/s^2"
+            ],
+            "answer": "9.8 m/s^2"
+        },
+        {
+            "question": "F = ma is associated with which scientist?",
+            "options": [
+                "Galileo",
+                "Newton",
+                "Einstein",
+                "Maxwell"
+            ],
+            "answer": "Newton"
+        }
+    ]
+}

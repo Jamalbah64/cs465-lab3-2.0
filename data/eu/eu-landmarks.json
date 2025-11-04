@@ -1,0 +1,38 @@
+{
+    "topic": "European Union",
+    "quizId": "eu-landmarks",
+    "title": "EU Landmarks",
+    "quizMessage": "Match iconic landmarks to their EU locations.",
+    "questions": [
+        {
+            "question": "The Sagrada Família is located in which city?",
+            "options": [
+                "Madrid",
+                "Barcelona",
+                "Valencia",
+                "Seville"
+            ],
+            "answer": "Barcelona"
+        },
+        {
+            "question": "The Acropolis overlooks which capital?",
+            "options": [
+                "Athens",
+                "Sofia",
+                "Bucharest",
+                "Zagreb"
+            ],
+            "answer": "Athens"
+        },
+        {
+            "question": "The Atomium is a landmark in which EU capital?",
+            "options": [
+                "Amsterdam",
+                "Brussels",
+                "Luxembourg City",
+                "Vienna"
+            ],
+            "answer": "Brussels"
+        }
+    ]
+}

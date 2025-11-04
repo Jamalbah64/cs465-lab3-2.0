@@ -1,0 +1,38 @@
+{
+    "topic": "Cars",
+    "quizId": "car-brands",
+    "title": "Car Brands",
+    "quizMessage": "Match brands to their origins or badges.",
+    "questions": [
+        {
+            "question": "Which brand is from Japan?",
+            "options": [
+                "BMW",
+                "Toyota",
+                "Renault",
+                "Volvo"
+            ],
+            "answer": "Toyota"
+        },
+        {
+            "question": "Which brand’s logo is a three-pointed star?",
+            "options": [
+                "Mercedes-Benz",
+                "Subaru",
+                "Mazda",
+                "Peugeot"
+            ],
+            "answer": "Mercedes-Benz"
+        },
+        {
+            "question": "Which brand is part of the Volkswagen Group?",
+            "options": [
+                "Peugeot",
+                "SEAT",
+                "Fiat",
+                "Volvo"
+            ],
+            "answer": "SEAT"
+        }
+    ]
+}

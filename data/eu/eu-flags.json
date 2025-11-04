@@ -1,0 +1,38 @@
+{
+    "topic": "European Union",
+    "quizId": "eu-flags",
+    "title": "EU Flags",
+    "quizMessage": "Identify the member by its flag colors or symbols.",
+    "questions": [
+        {
+            "question": "Which country's flag has three vertical stripes: green, white, and orange?",
+            "options": [
+                "Ireland",
+                "Italy",
+                "Hungary",
+                "Bulgaria"
+            ],
+            "answer": "Ireland"
+        },
+        {
+            "question": "Which flag has a yellow Nordic cross on a blue field?",
+            "options": [
+                "Finland",
+                "Sweden",
+                "Denmark",
+                "Estonia"
+            ],
+            "answer": "Sweden"
+        },
+        {
+            "question": "Which flag consists of three horizontal bands: black, red, and gold?",
+            "options": [
+                "Belgium",
+                "Germany",
+                "Spain",
+                "Austria"
+            ],
+            "answer": "Germany"
+        }
+    ]
+}

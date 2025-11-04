@@ -1,0 +1,64 @@
+/*
+ * Basic styling for the Qzicl quiz.
+ */
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+#app {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #eee;
+}
+
+button:hover:not(:disabled) {
+  background: #ddd;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Answer options have their own style to indicate selection */
+.answer-option {
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.answer-option.selected {
+  border-color: #333;
+  background: #f0f0f0;
+}

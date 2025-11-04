@@ -1,0 +1,38 @@
+{
+    "topic": "Science",
+    "quizId": "space-exploration",
+    "title": "Space Exploration",
+    "quizMessage": "Missions and objects in our solar system.",
+    "questions": [
+        {
+            "question": "Which planet did the Perseverance rover land on in 2021?",
+            "options": [
+                "Venus",
+                "Mars",
+                "Mercury",
+                "Moon"
+            ],
+            "answer": "Mars"
+        },
+        {
+            "question": "The Hubble Space Telescope orbits:",
+            "options": [
+                "The Moon",
+                "The Sun",
+                "Earth",
+                "Mars"
+            ],
+            "answer": "Earth"
+        },
+        {
+            "question": "Which is the largest planet in our solar system?",
+            "options": [
+                "Saturn",
+                "Neptune",
+                "Jupiter",
+                "Uranus"
+            ],
+            "answer": "Jupiter"
+        }
+    ]
+}

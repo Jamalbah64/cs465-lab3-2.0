@@ -1,0 +1,38 @@
+{
+    "topic": "Cars",
+    "quizId": "car-history",
+    "title": "Car History",
+    "quizMessage": "Milestones in automotive development.",
+    "questions": [
+        {
+            "question": "Who is often credited with the first practical automobile (Benz Patent-Motorwagen)?",
+            "options": [
+                "Henry Ford",
+                "Karl Benz",
+                "Gottlieb Daimler",
+                "Ferdinand Porsche"
+            ],
+            "answer": "Karl Benz"
+        },
+        {
+            "question": "Ford’s Model T was first produced in:",
+            "options": [
+                "1899",
+                "1908",
+                "1918",
+                "1927"
+            ],
+            "answer": "1908"
+        },
+        {
+            "question": "The widespread adoption of unibody construction began around which decade?",
+            "options": [
+                "1920s",
+                "1950s",
+                "1970s",
+                "1990s"
+            ],
+            "answer": "1950s"
+        }
+    ]
+}

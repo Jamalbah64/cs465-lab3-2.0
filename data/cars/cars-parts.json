@@ -1,0 +1,38 @@
+{
+    "topic": "Cars",
+    "quizId": "car-parts",
+    "title": "Car Parts",
+    "quizMessage": "Identify essential automotive components.",
+    "questions": [
+        {
+            "question": "Which component stores electrical energy to start the engine?",
+            "options": [
+                "Alternator",
+                "Battery",
+                "Starter motor",
+                "Ignition coil"
+            ],
+            "answer": "Battery"
+        },
+        {
+            "question": "What does the catalytic converter primarily reduce?",
+            "options": [
+                "Fuel consumption",
+                "Engine temperature",
+                "Exhaust emissions",
+                "Oil viscosity"
+            ],
+            "answer": "Exhaust emissions"
+        },
+        {
+            "question": "Which part transfers power from transmission to wheels?",
+            "options": [
+                "Radiator",
+                "Differential",
+                "Exhaust manifold",
+                "Throttle body"
+            ],
+            "answer": "Differential"
+        }
+    ]
+}

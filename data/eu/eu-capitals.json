@@ -1,0 +1,38 @@
+{
+        "topic": "European Union",
+        "quizId": "eu-capitals",
+        "title": "EU Capitals",
+        "quizMessage": "Match EU members to their capitals.",
+        "questions": [
+                {
+                        "question": "What is the capital of France?",
+                        "options": [
+                                "Berlin",
+                                "Madrid",
+                                "Paris",
+                                "Rome"
+                        ],
+                        "answer": "Paris"
+                },
+                {
+                        "question": "What is the capital of Germany?",
+                        "options": [
+                                "Vienna",
+                                "Berlin",
+                                "Prague",
+                                "Bern"
+                        ],
+                        "answer": "Berlin"
+                },
+                {
+                        "question": "What is the capital of Italy?",
+                        "options": [
+                                "Rome",
+                                "Milan",
+                                "Naples",
+                                "Turin"
+                        ],
+                        "answer": "Rome"
+                }
+        ]
+}
