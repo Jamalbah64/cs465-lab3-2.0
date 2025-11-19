@@ -11,7 +11,7 @@ export default function QuizList({ topicID, topicName, onSelectQuiz, onBack }) {
         (async () => {
             try {
                 const data = await getQuizzes(topicID);
-                setQuizzes(data);
+                setQuizzes(data.quizzes);
             } catch (e) {
                 setErr('Failed to load quizzes');
             } finally {

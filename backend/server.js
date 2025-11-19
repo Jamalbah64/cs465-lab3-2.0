@@ -1,12 +1,13 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+app.use(cors());
 
 const app = express();
 // Parse JSON bodies
 app.use(express.json());
 
-// Directory where quiz data resides. This expects a `data` folder alongside this server.js
+// Directory where quiz data resides. Where the `data` folder is alongside server.js
 const DATA_DIR = path.join(__dirname, 'data');
 const TOPICS_FILE = path.join(DATA_DIR, 'topics.json');
 
