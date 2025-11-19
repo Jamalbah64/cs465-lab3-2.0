@@ -447,7 +447,7 @@ body {
 .score-meta {
   margin-top: 0.3rem;
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: var(--text-main);
 }
 
 /* === Small utility helpers === */
