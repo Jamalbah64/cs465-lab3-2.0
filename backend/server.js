@@ -1,10 +1,10 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-app.use(cors());
+const cors = require('cors');
 
 const app = express();
-// Parse JSON bodies
+app.use(cors());
 app.use(express.json());
 
 // Directory where quiz data resides. Where the `data` folder is alongside server.js
