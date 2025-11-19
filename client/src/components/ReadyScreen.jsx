@@ -10,9 +10,9 @@ export default function ReadyScreen({ quizID, onStart, onExit }) {
     useEffect(() => {
         (async () => {
             try {
-                const { sessionID, quizIntro } = await startQuiz(quizID);
-                setSessionID(sessionID);
-                setIntro(quizIntro);
+                const res = await startQuiz(quizID);
+                setSessionID(res.sessionID);
+                setIntro(res.quizIntro);
             } catch (e) {
                 setErr('Failed to start quiz');
             }
