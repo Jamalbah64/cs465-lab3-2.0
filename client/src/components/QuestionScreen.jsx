@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { continueQuiz, getQuestion } from '../api/qzicl';
 
+
 export default function QuestionScreen({ sessionID, onFinished, onExit }) {
     const [q, setQ] = useState(null); // {questionID, questionText, answers[]}
     const [selected, setSelected] = useState(null);
@@ -11,8 +12,8 @@ export default function QuestionScreen({ sessionID, onFinished, onExit }) {
     useEffect(() => {
         (async () => {
             try {
-                const first = await getQuestion(sessionID);
-                setQ(first);
+                const data = await getQuestion(sessionID);
+                setQ(data);
             } catch (e) {
                 setErr('Failed to load question');
             }
@@ -22,14 +23,14 @@ export default function QuestionScreen({ sessionID, onFinished, onExit }) {
     async function handleNext() {
         if (selected == null) return;
         try {
-            const resp = await continueQuiz(sessionID, q.questionID, selected);
-            if (resp.results) {
-                onFinished(resp.results);
+            const data = await continueQuiz(sessionID, q.questionID, selected);
+            if (data.results) {
+                onFinished(data.results);
             } else {
                 setQ({
-                    questionID: resp.questionIDnext,
-                    questionText: resp.questionText,
-                    answers: resp.answers,
+                    questionID: data.questionIDnext,
+                    questionText: data.questionText,
+                    answers: data.answers,
                 });
                 setSelected(null);
             }

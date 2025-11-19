@@ -10,8 +10,8 @@ export default function TopicList({ onSelectTopic }) {
     useEffect(() => {
         (async () => {
             try {
-                const { topics } = await hello();
-                setTopics(topics);
+                const data = await hello();
+                setTopics(data.topics);
             } catch (e) {
                 setErr('Failed to load topics');
             } finally {

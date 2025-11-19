@@ -6,6 +6,12 @@ const http = axios.create({
     headers: { 'Content-Type': 'application/json' }
 });
 
+// Normalize responses: callers receive the payload directly (`res.data`)
+http.interceptors.response.use(
+    (response) => response.data,
+    (error) => Promise.reject(error)
+);
+
 export const hello = () => http.post('/hello', { who: 'qzicl', action: 'hello' });
 export const getQuizzes = (topicID) => http.get('/api/topics', { params: { topicID } });
 export const startQuiz = (quizID) => http.get('/api/quizes', { params: { quizID } });

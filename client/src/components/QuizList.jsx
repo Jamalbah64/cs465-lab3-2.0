@@ -10,8 +10,8 @@ export default function QuizList({ topicID, topicName, onSelectQuiz, onBack }) {
     useEffect(() => {
         (async () => {
             try {
-                const list = await getQuizzes(topicID);
-                setQuizzes(list);
+                const data = await getQuizzes(topicID);
+                setQuizzes(data);
             } catch (e) {
                 setErr('Failed to load quizzes');
             } finally {
