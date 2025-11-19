@@ -169,7 +169,11 @@ app.get('/api/continue', (req, res) => {
     }
     sess.index = idx + 1;
     if (sess.index >= sess.questions.length) {
-        const results = `You scored ${sess.score}/${sess.questions.length}`;
+        const correct = sess.score;
+        const total = sess.questions.length;
+        const wrong = total - correct;
+        // return a structured object instead of a string
+        const results = { score: correct, total, correct, wrong };
         delete sessions[sessionID];
         return res.json({ results });
     }
